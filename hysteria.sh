@@ -14,7 +14,7 @@ print_with_delay() {
 # Introduction animation
 echo ""
 echo ""
-print_with_delay "hysteria2-installer by DEATHLINE | @NamelesGhoul" 0.1
+print_with_delay "hysteria2-installer by 3yed-61 | @NamelesGhoul" 0.1
 echo ""
 echo ""
 
@@ -95,8 +95,8 @@ tls:
   sni: bing.com
   insecure: true
 bandwidth:
-  up: 100 mbps
-  down: 100 mbps
+  up: 16 mbps
+  down: 16 mbps
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
@@ -207,8 +207,8 @@ quic:
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 bandwidth:
-  up: 1 gbps
-  down: 1 gbps
+  up: 16 mbps
+  down: 16 mbps
 ignoreClientBandwidth: true
 disableUDP: false
 udpIdleTimeout: 60s
@@ -283,8 +283,8 @@ tls:
   sni: bing.com
   insecure: true
 bandwidth:
-  up: 100 mbps
-  down: 100 mbps
+  up: 16 mbps
+  down: 16 mbps
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
