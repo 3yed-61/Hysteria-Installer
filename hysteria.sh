@@ -207,8 +207,8 @@ quic:
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 bandwidth:
-  up: 16 mbps
-  down: 16 mbps
+  up: 25 mbps
+  down: 25 mbps
 ignoreClientBandwidth: true
 disableUDP: false
 udpIdleTimeout: 60s
