@@ -95,8 +95,8 @@ tls:
   sni: bing.com
   insecure: true
 bandwidth:
-  up: 16 mbps
-  down: 16 mbps
+  up: 100 mbps
+  down: 100 mbps
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
@@ -207,8 +207,8 @@ quic:
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 bandwidth:
-  up: 25 mbps
-  down: 25 mbps
+  up: 100 mbps
+  down: 100 mbps
 ignoreClientBandwidth: true
 disableUDP: false
 udpIdleTimeout: 60s
@@ -283,8 +283,8 @@ tls:
   sni: bing.com
   insecure: true
 bandwidth:
-  up: 16 mbps
-  down: 16 mbps
+  up: 100 mbps
+  down: 100 mbps
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
